@@ -1,5 +1,6 @@
-on: [push]
-
+on:
+  - push
+  - workflow_dispatch
 jobs:
   table:
     runs-on: ubuntu-latest
